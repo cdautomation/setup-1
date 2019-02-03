@@ -1,5 +1,3 @@
-# setup
-
 1  apt-get update
     2  apt-get install zip unzip git sudo tree 
     3  apt-get install wget curl
@@ -36,3 +34,17 @@
    34  apt-get install vim
    35  vi server.xml 
    36  history
+   37  chmod +x /opt/apache-tomcat-8.5.37/bin/startup.sh shutdown.sh
+   38  chmod +x /opt/apache-tomcat-8.5.37/bin/shutdown.sh
+   39  find / -name context.xml
+   40  vi /opt/apache-tomcat-8.5.37/webapps/host-manager/META-INF/context.xml
+   41  vi /opt/apache-tomcat-8.5.37/webapps/manager/META-INF/context.xml
+   42  cd ../bin/startup.sh 
+   43  cd ..
+   44  ls
+   45  cd bin/
+   46  ls
+   47  ./startup.sh 
+   48  chmod +x catalina.sh 
+   49  ./startup.sh 
+   50  history
