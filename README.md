@@ -48,3 +48,8 @@
    48  chmod +x catalina.sh 
    49  ./startup.sh 
    50  history
+   
+   
+   
+   
+   https://vitux.com/how-to-install-and-configure-apache-web-server-on-ubuntu/
